@@ -36,7 +36,7 @@ class CSVCombiner:
 
         newDF.to_csv(f"combined/{newfile}")
 
-        print(f"\nDone!\nCombined file -> {newfile}.csv\n")
+        print(f"\nDone!\nCombined file -> combined/{newfile}.csv\n")
         return True
 
 
